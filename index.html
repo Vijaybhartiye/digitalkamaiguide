@@ -4,57 +4,146 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Digital Kamai Guide</title>
+
 <style>
-  body { font-family: "Segoe UI", sans-serif; margin: 0; background: #eef2f7; }
-  header { background: #007bff; color: white; padding: 25px 20px; text-align: center; }
-  nav a { color: white; margin: 0 12px; text-decoration: none; font-weight: bold; }
-  nav a:hover { text-decoration: underline; }
-  .hero { padding: 40px 20px; text-align: center; background: #ffffff; margin-bottom: 20px; border-radius: 8px; }
-  .hero h1 { margin-top: 0; }
-  .btn { background: #007bff; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
-  .btn:hover { background: #0056b3; }
-  .card { background: white; padding: 20px; margin: 15px auto; border-radius: 10px; max-width: 400px; box-shadow: 0px 3px 8px rgba(0,0,0,0.1); }
-  footer { text-align:center; padding:15px; background:#333; color:white; font-size:14px; }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #fff);
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #007bff, #6610f2);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  background: white;
+  margin: 40px auto;
+  padding: 60px 20px;
+  max-width: 900px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.hero h2 {
+  font-size: 32px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #444;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 30px;
+  background: linear-gradient(90deg, #ff5722, #ff9800);
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* CARDS */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: white;
+  width: 280px;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
 </style>
 </head>
+
 <body>
 
 <header>
+  <h1>Digital Kamai Guide</h1>
   <nav>
-   <header>
-  <h2>💡 Digital Kamai Guide</h2>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
   </nav>
-</header> 
+</header>
 
 <section class="hero">
-  <h1>Digital Kamai Guide</h1>
-  <p>
-  Ghar baithe mobile aur laptop se <b>real online earning</b> sikho.  
-  Bilkul beginner ke liye, bina investment.
-</p>
-  <a class="btn" href="about.html">Start Learning</a>
+  <h2>Online Paisa Kamana Sikho 🚀</h2>
+  <p>Mobile aur Laptop se earning ke best tarike — bilkul simple language me.</p>
+  <a class="btn" href="#">Start Learning</a>
 </section>
 
-<section>
+<section class="section">
   <div class="card">
-    <h2>📱 Mobile Se Earning</h2>
-    <p>Mobile se paise kaise kamaye step‑by‑step guide.</p>
-    <a class="btn" href="about.html">Explore</a>
+    <h3>📱 Mobile Earning</h3>
+    <p>Mobile se online paisa kamane ke easy methods.</p>
+    <a class="btn" href="#">Learn Free</a>
   </div>
 
   <div class="card">
-    <h2>💻 Online Ideas</h2>
-    <p>Freelancing, blogging, affiliate marketing aur aur bhi.</p>
-    <a class="btn" href="about.html">Discover More</a>
+    <h3>💻 Online Work</h3>
+    <p>Freelancing, blogging aur online jobs.</p>
+    <a class="btn" href="#">Explore</a>
+  </div>
+
+  <div class="card">
+    <h3>🔥 Passive Income</h3>
+    <p>Affiliate marketing aur digital products.</p>
+    <a class="btn" href="#">Start Now</a>
   </div>
 </section>
 
 <footer>
-  © 2026 Digital Kamai Guide | All Rights Reserved
+  © 2026 Digital Kamai Guide | Made by Vijay
 </footer>
 
 </body>
